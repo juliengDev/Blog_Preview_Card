@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  font-family: Outfit, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  letter-spacing: 0.019rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.heading {
+  color: var(--color-primary-dark-navy);
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding: 0 0 1.6rem;
+}
+.text {
+  color: var(--color-grey);
+  font-size: 1.5rem;
+  padding: 0 1.6rem;
+}
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
