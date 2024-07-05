@@ -110,7 +110,7 @@ FONT SIZE SYSTEM (px)
 }
 
 .blogCard {
-  max-width: 32.7rem;
+  max-width: 38.4rem;
   margin: 15.5rem 2.4rem 0;
   padding: 2.4rem;
   border: 1px solid var(--color-black);
@@ -118,6 +118,11 @@ FONT SIZE SYSTEM (px)
   box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
   overflow: hidden;
   background-color: var(--color-pure-white);
+}
+@media only screen and (max-width: 23.4375em) {
+  .blogCard {
+    max-width: 32.7rem;
+  }
 }
 .blogCard-image {
   width: 100%;
@@ -143,14 +148,29 @@ FONT SIZE SYSTEM (px)
   margin-bottom: 1.2rem;
 }
 .blogCard-content-title {
+  display: inline-block;
+  font-size: 2.4rem;
   font-weight: 800;
-  font-size: 2rem;
   margin-bottom: 1.2rem;
 }
+@media only screen and (max-width: 23.4375em) {
+  .blogCard-content-title {
+    font-size: 2rem;
+  }
+}
+.blogCard-content-title:hover {
+  cursor: url("../../assets/images/handcursor.png"), auto;
+  color: var(--color-yellow);
+}
 .blogCard-content-description {
+  font-size: 1.6rem;
   color: var(--color-grey);
-  font-size: 1.4rem;
   font-weight: 500;
+}
+@media only screen and (max-width: 23.4375em) {
+  .blogCard-content-description {
+    font-size: 1.4rem;
+  }
 }
 .blogCard-author {
   display: flex;
