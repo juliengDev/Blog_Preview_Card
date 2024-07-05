@@ -138,14 +138,25 @@ FONT SIZE SYSTEM (px)
 .blogCard-content-tag-category {
   display: inline-block;
   font-weight: 800;
+  font-size: 1.4rem;
   padding: 0.4rem 1.2rem;
   background-color: var(--color-yellow);
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.4rem;
+}
+@media only screen and (max-width: 23.4375em) {
+  .blogCard-content-tag-category {
+    font-size: 1.2rem;
+  }
 }
 .blogCard-content-publish-date {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-bottom: 1.2rem;
+}
+@media only screen and (max-width: 23.4375em) {
+  .blogCard-content-publish-date {
+    font-size: 1.2rem;
+  }
 }
 .blogCard-content-title {
   display: inline-block;
@@ -177,6 +188,7 @@ FONT SIZE SYSTEM (px)
   align-items: center;
 }
 .blogCard-author-avatar {
+  max-width: 3.2rem;
   margin-right: 1.2rem;
 }
 
