@@ -175,6 +175,7 @@ FONT SIZE SYSTEM (px)
 }
 .blogCard-content-description {
   font-size: 1.6rem;
+  line-height: 150%;
   color: var(--color-grey);
   font-weight: 500;
 }
